@@ -1,0 +1,19 @@
+{
+  "name": "task_01",
+  "version": "1.0.0",
+  "description": "Come up with a nodejs script that parses a given url, gathers only internal hyperlinks, enters each link's page and gathers links from it and so forth. The amount of links to be gathered should be passed as a parameter to the script. The result – a printed list of links.",
+  "main": "index.js",
+  "author": "Jonathan Nicholas <Jonathan.Nicholas@ProtonMail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.15.3"
+  }
+}
